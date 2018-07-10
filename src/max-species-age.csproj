@@ -1,24 +1,29 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Landis.Extension.Output.MaxSpeciesAge</RootNamespace>
-    <AssemblyName>Landis.Extension.Output.MaxSpeciesAge</AssemblyName>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyName>Landis.Extension.Output.MaxSpeciesAge-v3</AssemblyName>
+    <AssemblyTitle>Landis.Extension.Output.MaxSpeciesAge-v3</AssemblyTitle>
+    <AssemblyCompany>Landis-II-Foundation</AssemblyCompany>
+    <AssemblyProduct>Landis.Extension.Output.MaxSpeciesAge-v3</AssemblyProduct>
+    <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
     <AssemblyVersion>3.0</AssemblyVersion>
-    <NeutralLanguage>English</NeutralLanguage>
-    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Extension-Output-Max-Species-Age/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl></PackageProjectUrl>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Output-Max-Species-Age</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>LANDIS-II;Landis;Extension;Output max species age</PackageTags>
-    <Copyright>LANDIS-II Foundation</Copyright>
-    <Description>Landis.Extension.Output.MaxSpeciesAge</Description>
-    <Authors>LANDIS-II Foundation</Authors>
-    <Version>3.0</Version>
+    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Extension-Output-Max-Species-Age/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>http://www.landis-ii.org</PackageProjectUrl>
+    <NeutralLanguage>English</NeutralLanguage>
+    <Authors>Landis-II-Foundation</Authors>
+    <Product>Landis.Extension.Output.MaxSpeciesAge-v3</Product>
+    <Copyright>Landis-II-Foundation</Copyright>
+    <Version></Version>
+    <PackageTags>LANDIS-II;Landis;Extension;Output Max Species Age</PackageTags>
+    <Description></Description>
+    <PackageReleaseNotes>.NET Standard 2.0 update.</PackageReleaseNotes>
     <FileVersion>7.0.0.0</FileVersion>
-    <PackageReleaseNotes>Landis.Extension.Output.MaxSpeciesAge</PackageReleaseNotes>
   </PropertyGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Landis.Core" Version="2.0.0" />
