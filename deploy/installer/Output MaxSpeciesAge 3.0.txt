@@ -3,7 +3,7 @@ LandisData   Extension
 Name         "Output Max Species Age"
 Version      3.0
 Type         output
-Assembly     Landis.Extension.Output.MaxSpeciesAge
+Assembly     Landis.Extension.Output.MaxSpeciesAge-v3
 Class        Landis.Extension.Output.MaxSpeciesAge.PlugIn
 Description  "Maximum age output maps"
 CoreVersion  7.0
