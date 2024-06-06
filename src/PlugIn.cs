@@ -1,7 +1,7 @@
 //  Authors:  Robert M. Scheller, James Domingo
 
 using Landis.Core;
-using Landis.Library.AgeOnlyCohorts;
+using Landis.Library.UniversalCohorts;
 using Landis.SpatialModeling;
 
 using System.Collections.Generic;
@@ -111,6 +111,11 @@ namespace Landis.Extension.Output.MaxSpeciesAge
             }
         }
 
+        // ADD CUSTOM DYNAMIC PARAMETERS HERE
+        public override void AddCohortData()
+        {
+            return;
+        }
     }
 }
 

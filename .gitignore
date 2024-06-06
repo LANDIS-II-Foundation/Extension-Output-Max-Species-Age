@@ -208,3 +208,12 @@ FakesAssemblies/
 # LANDIS-II
 /src/lib/*.dll
 /src/.vs
+testings/version-tests/Core8-MaxSppAge3.1/Biomass-succession-log.csv
+/testings/version-tests/Core8-MaxSppAge3.1/biomass-succession
+testings/version-tests/Core8-MaxSppAge3.1/Climate-annual-log.csv
+testings/version-tests/Core8-MaxSppAge3.1/Climate-future-input-log.csv
+testings/version-tests/Core8-MaxSppAge3.1/Climate-spinup-input-log.csv
+testings/version-tests/Core8-MaxSppAge3.1/Landis-climate-log.txt
+testings/version-tests/Core8-MaxSppAge3.1/Landis-log.txt
+/testings/version-tests/Core8-MaxSppAge3.1/Metadata
+/testings/version-tests/Core8-MaxSppAge3.1/outputs
