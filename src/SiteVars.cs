@@ -1,7 +1,7 @@
 ﻿
 using Landis.Core;
 using Landis.SpatialModeling;
-using Landis.Library.AgeOnlyCohorts;
+using Landis.Library.UniversalCohorts;
 
 namespace Landis.Extension.Output.MaxSpeciesAge
 {
@@ -13,7 +13,7 @@ namespace Landis.Extension.Output.MaxSpeciesAge
 
         public static void Initialize()
         {
-            cohorts = PlugIn.ModelCore.GetSiteVar<ISiteCohorts>("Succession.AgeCohorts");
+            cohorts = PlugIn.ModelCore.GetSiteVar<ISiteCohorts>("Succession.UniversalCohorts");
             
         }
 
@@ -42,8 +42,8 @@ namespace Landis.Extension.Output.MaxSpeciesAge
                 if(speciesCohorts.Species == species)
                     foreach (ICohort cohort in speciesCohorts)
                     {
-                        if (cohort.Age > max)
-                            max = (short) cohort.Age;
+                        if (cohort.Data.Age > max)
+                            max = (short) cohort.Data.Age;
                     }
             }
             return max;
@@ -62,8 +62,8 @@ namespace Landis.Extension.Output.MaxSpeciesAge
             {
                 foreach (ICohort cohort in speciesCohorts)
                 {
-                    if (cohort.Age > max)
-                        max = (short) cohort.Age;
+                    if (cohort.Data.Age > max)
+                        max = (short) cohort.Data.Age;
                 }
             }
             return max;
