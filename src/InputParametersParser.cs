@@ -34,7 +34,6 @@ namespace Landis.Extension.Output.MaxSpeciesAge
 
         protected override IInputParameters Parse()
         {
-            // ReadLandisDataVar();
 
             InputVar<string> landisData = new InputVar<string>("LandisData");
             ReadVar(landisData);
