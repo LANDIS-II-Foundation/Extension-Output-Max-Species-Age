@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-//using System.Data;
-using System.Text;
 using Landis.Library.Metadata;
 using Landis.Core;
-using Landis.Utilities;
 using System.IO;
-using Flel = Landis.Utilities;
+using Landis.Utilities;
 
 namespace Landis.Extension.Output.MaxSpeciesAge
 {
@@ -26,7 +22,6 @@ namespace Landis.Extension.Output.MaxSpeciesAge
             };
 
             Extension = new ExtensionMetadata(PlugIn.ModelCore)
-            //Extension = new ExtensionMetadata()
             {
                 Name = PlugIn.ExtensionName,
                 TimeInterval = PlugIn.ModelCore.CurrentTime,
@@ -46,7 +41,6 @@ namespace Landis.Extension.Output.MaxSpeciesAge
                     FilePath = MapNameTemplates.ReplaceTemplateVars(speciesNameTemplate, species.Name, PlugIn.ModelCore.CurrentTime),
                     Map_DataType = MapDataType.Continuous,
                     Visualize = true,
-                    //Map_Unit = "categorical",
                 };
                 Extension.OutputMetadatas.Add(mapOut_max);
             }
@@ -58,7 +52,6 @@ namespace Landis.Extension.Output.MaxSpeciesAge
                 FilePath = MapNameTemplates.ReplaceTemplateVars(speciesNameTemplate, "AllSppMaxAge", PlugIn.ModelCore.CurrentTime),
                 Map_DataType = MapDataType.Continuous,
                 Visualize = true,
-                //Map_Unit = "categorical",
             };
             Extension.OutputMetadatas.Add(mapOut_max_all);
 
@@ -70,7 +63,6 @@ namespace Landis.Extension.Output.MaxSpeciesAge
         }
         public static void CreateDirectory(string path)
         {
-            //Require.ArgumentNotNull(path);
             path = path.Trim(null);
             if (path.Length == 0)
                 throw new ArgumentException("path is empty or just whitespace");
@@ -78,10 +70,9 @@ namespace Landis.Extension.Output.MaxSpeciesAge
             string dir = Path.GetDirectoryName(path);
             if (!string.IsNullOrEmpty(dir))
             {
-                Flel.Directory.EnsureExists(dir);
+                Landis.Utilities.Directory.EnsureExists(dir);
             }
 
-            //return new StreamWriter(path);
             return;
         }
     }

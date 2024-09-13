@@ -208,3 +208,45 @@ FakesAssemblies/
 # LANDIS-II
 /src/lib/*.dll
 /src/.vs
+testings/Core8-MaxSppAge4.0/biomass-succession/biomass-anpp-10.tif
+testings/Core8-MaxSppAge4.0/biomass-succession/biomass-anpp-20.tif
+testings/Core8-MaxSppAge4.0/biomass-succession/biomass-anpp-30.tif
+testings/Core8-MaxSppAge4.0/biomass-succession/biomass-anpp-40.tif
+testings/Core8-MaxSppAge4.0/biomass-succession/biomass-anpp-50.tif
+testings/Core8-MaxSppAge4.0/Biomass-succession-log.csv
+testings/Core8-MaxSppAge4.0/Climate-annual-log.csv
+testings/Core8-MaxSppAge4.0/Climate-future-input-log.csv
+testings/Core8-MaxSppAge4.0/Climate-spinup-input-log.csv
+testings/Core8-MaxSppAge4.0/Landis-climate-log.txt
+testings/Core8-MaxSppAge4.0/Landis-log.txt
+testings/Core8-MaxSppAge4.0/Metadata/Biomass Succession/Biomass Succession.xml
+testings/Core8-MaxSppAge4.0/Metadata/Biomass Succession/SummaryLog_Metadata.xml
+testings/Core8-MaxSppAge4.0/Metadata/Climate-Library/Annual-Log_Metadata.xml
+testings/Core8-MaxSppAge4.0/Metadata/Climate-Library/Climate-Library.xml
+testings/Core8-MaxSppAge4.0/Metadata/Climate-Library/Future-Input-Log_Metadata.xml
+testings/Core8-MaxSppAge4.0/Metadata/Climate-Library/Spinup-Input-Log_Metadata.xml
+testings/Core8-MaxSppAge4.0/Metadata/LANDIS-II v8.0/LANDIS-II v8.0.xml
+testings/Core8-MaxSppAge4.0/Metadata/Output Max Species Age/Output Max Species Age.xml
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-0.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-10.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-15.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-20.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-25.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-30.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-35.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-40.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-45.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-5.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/abiebals-50.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-0.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-10.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-15.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-20.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-25.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-30.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-35.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-40.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-45.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-5.tif
+testings/Core8-MaxSppAge4.0/outputs/max-age-selected-spp/AllSppMaxAge-50.tif
+src/max-species-age.sln
