@@ -7,19 +7,19 @@ namespace Landis.Extension.Output.MaxSpeciesAge
 {
     public static class SiteVars
     {
-        private static ISiteVar<ISiteCohorts> cohorts;
+        private static ISiteVar<SiteCohorts> cohorts;
 
         //---------------------------------------------------------------------
 
         public static void Initialize()
         {
-            cohorts = PlugIn.ModelCore.GetSiteVar<ISiteCohorts>("Succession.UniversalCohorts");
+            cohorts = PlugIn.ModelCore.GetSiteVar<SiteCohorts>("Succession.UniversalCohorts");
             
         }
 
         //---------------------------------------------------------------------
 
-        public static ISiteVar<ISiteCohorts> Cohorts
+        public static ISiteVar<SiteCohorts> Cohorts
         {
             get
             {
