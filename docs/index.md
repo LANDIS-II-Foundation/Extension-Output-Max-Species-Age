@@ -4,7 +4,7 @@ The maximum species age extension outputs maps of the maximum ages for select tr
 
 # Release Notes
 
-- Latest release: Version 4.0, October 2024
+- Latest release: Version 4.1, April 2026
 - Full release details found in the User Guide and on GitHub.
 - [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Output-Max-Species-Age/blob/master/docs/LANDIS-II%20Output%20Max%20Species%20Age%20v4%20User%20Guide.pdf).
 - Copyright: The LANDIS-II Foundation
