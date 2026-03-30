@@ -19,7 +19,7 @@ You need:
 
 # Download and Install the Extension
 
-- The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Output-Max-Species-Age/blob/master/deploy/installer/LANDIS-II-V8%20Output%20Max%20Species%20Age%204.0-setup.exe). (Look for the download icon in the upper right corner.)  Launch the installer.
+- The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Output-Max-Species-Age/blob/master/deploy/installer/LANDIS-II-V8%20Output%20Max%20Species%20Age%204.1-setup.exe). (Look for the download icon in the upper right corner.)  Launch the installer.
 
 # Example Files
 
